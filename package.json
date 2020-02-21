@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheLarkInn/webpack-workshop-2018.git"
+    "url": "git+https://github.com/dev2js/Webpack-4-Fundamentals.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/TheLarkInn/webpack-workshop-2018#readme",
+  "homepage": "https://github.com/dev2js/Webpack-4-Fundamentals#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
     "@babel/preset-env": "^7.0.0-beta.46",
