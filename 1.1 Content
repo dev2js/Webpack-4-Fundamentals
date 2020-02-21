@@ -1,0 +1,23 @@
+Problem without Webpack
+Have to deal with global js with 10K lines code or modules of files around 300 files
+Other problems are scope, globalizing, modules based.
+We can solve multiple modules by Gulp, Grunt, broccoli ... uglyfies the app.
+Single file change have to rebuild them and dead code or bottle necks.
+Cant do lazy loading
+Asynchronous module definition along with Common JS - Too dynamic of Lazy loading
+ESM - Import / Export doesnt works with Node and slower in Browser if used directly as they
+take time to resolve the dependencies
+
+Webpack
+ESM
+Module based ecosystem
+mode to set along with environment
+Watch mode
+Treeshaking / Dead Code eliminations
+core concepts
+Entry
+Loaders(chaining loaders) and Rules
+plugins
+Limit file size
+Bundle Analyzer
+Source Maps
