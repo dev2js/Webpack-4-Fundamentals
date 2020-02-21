@@ -9,6 +9,7 @@ module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
   return webpackMerge(
     {
       mode,
+      devtool: "cheap-module-source-map",
       module: {
         rules: [
           {

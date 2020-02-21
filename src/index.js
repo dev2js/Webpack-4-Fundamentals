@@ -8,7 +8,7 @@ import css from "./footer.css";
 import buttonStyles from "./button.css";
 
 const image = makeImage(imageUrl);
-const button = makeButton("Yay! A Button!");
+const button = makeButton("It is a Button");
 button.style = makeColorStyle("cyan");
 
 document.body.appendChild(button);
